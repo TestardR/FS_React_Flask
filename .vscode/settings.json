@@ -1,0 +1,5 @@
+{
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "python.pythonPath": "C:\\Users\\PC\\.virtualenvs\\ReactFlask-EP_y2Eq8\\Scripts\\python.exe"
+}
