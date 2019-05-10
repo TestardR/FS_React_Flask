@@ -7,4 +7,7 @@ def create_app():
 
     app.config['SQALCHEMY_DATABASE_URI'] = 'sqlite:///database.db'
 
+    from .views import main
+    app.register_blueprint(main)
+
     return app
