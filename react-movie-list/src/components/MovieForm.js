@@ -37,6 +37,8 @@ const MovieForm = ({ onNewMovie }) => {
             if (response.ok) {
               //   console.log('response worked');
               onNewMovie(movie);
+              setTitle('');
+              setRating(1);
             }
           }}
         >
